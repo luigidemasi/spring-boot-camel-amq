@@ -202,6 +202,11 @@
 
     <repositories>
         <repository>
+            <id>rh-proxy-repository</id>
+            <name>Red Hat proxy Repository</name>
+            <url>http://10.0.144.111:8081/repository/maven-public/</url>
+        </repository>
+        <repository>
             <id>redhat-ga-repository</id>
             <url>https://maven.repository.redhat.com/ga</url>
             <releases>
@@ -224,6 +229,11 @@
     </repositories>
 
     <pluginRepositories>
+        <pluginRepository>
+            <id>rh-proxy-plugin-repository</id>
+            <name>Red Hat proxy plugin Repository</name>
+            <url>http://10.0.144.111:8081/repository/maven-public/</url>
+        </pluginRepository>
         <pluginRepository>
             <id>redhat-ga-repository</id>
             <url>https://maven.repository.redhat.com/ga</url>
